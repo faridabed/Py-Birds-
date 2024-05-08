@@ -7,7 +7,7 @@ from pygame.locals import *
 pygame.init()
 pygame.font.init()
 # All the Game Variables
-WIDTH = 1000
+WIDTH = 800
 HEIGHT = 800
 FRAMES_PER_SECOND = 32
 obstacle = 'images/obstacle.png'
