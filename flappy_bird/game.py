@@ -4,8 +4,11 @@ import sys
 import pygame
 from pygame.locals import *
 
+
 pygame.init()
+
 pygame.font.init()
+
 # All the Game Variables
 WIDTH = 800
 HEIGHT = 800
@@ -26,6 +29,7 @@ pygame.display.set_caption("Menu du jeu")
 BACKGROUND_MENU = pygame.image.load('images/background_menu.png').convert()
 elevation = HEIGHT * 1.5
 images = {}
+
 
 def draw_text(text, font, color, surface, x, y):
     textobj = font.render(text, 1, color)
